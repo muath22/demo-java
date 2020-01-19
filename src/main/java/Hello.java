@@ -1,3 +1,4 @@
+
 // Import required java libraries
 import java.io.*;
 import javax.servlet.*;
@@ -10,11 +11,7 @@ public class Hello extends HttpServlet {
 
    public void init() throws ServletException {
       // Do required initialization
-<<<<<<< HEAD
-      message = "Hello WorldTest: src/main/java/Hello.java";
-=======
-      message = "Hello Worldtes33t: src/main/java/Hello.java";
->>>>>>> 692a1dfbc7ad7b52baeb1d6094f1997f6cde95db
+      message = "Hello World: src/main/java/Hello.java";
    }
 
    public void doGet(HttpServletRequest request, HttpServletResponse response)
