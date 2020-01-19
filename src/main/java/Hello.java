@@ -11,7 +11,7 @@ public class Hello extends HttpServlet {
 
    public void init() throws ServletException {
       // Do required initialization
-      message = "Hello World Final: src/main/java/Hello.java";
+      message = "Hello World";
    }
 
    public void doGet(HttpServletRequest request, HttpServletResponse response)
